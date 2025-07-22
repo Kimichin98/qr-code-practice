@@ -1,0 +1,74 @@
+/* styles.css - Initial CSS file */
+html{
+  height: 100%;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%)
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.qr-code-img {
+  height: 288px;
+  width: 288px;
+  border-radius: 20px;
+  
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 320px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr-code{
+  display: flex;
+  margin-top: 16px;
+}
+
+.div1{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 10px;
+}
+
+.top-text,
+.bottom-text {
+  font-family: Outfit, sans-serif;
+  text-align: center;
+}
+
+.top-text {
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  margin-top: 0px;
+}
+
+.bottom-text {
+  font-weight: 400;
+  font-size: 15 px;
+  color: hsl(216, 15%, 48%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
